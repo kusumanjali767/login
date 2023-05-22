@@ -1,0 +1,124 @@
+* {
+    margin:0;
+    padding:0;
+}
+.main {
+    width:100%;
+    height:100vh;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(/resources/images/background1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.form {
+    width:280px;
+    height:380px;
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%);
+    position:absolute;
+    left:500px;
+    top:120px;
+    border-radius:10px;
+    padding:25px;
+}
+.form h1 {
+    width:240px;
+    font-family: Arial;
+    font-size: 26px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    margin:2px;
+    padding:8px;
+    margin-bottom: 15px;
+    border-radius:10px;
+}
+.form h5{
+    color:white;
+    font-family: Arial;
+    font-size:16px;
+}
+.form input{
+    width:240px;
+    height:35px;
+    background:transparent;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-right:none;
+    border-left: none;
+    margin-bottom:10px;
+    letter-spacing: 1px;
+    color:white
+
+}
+.form h4{
+    color:white;
+    font-family:Arial;
+    font-size:16px;
+}
+::placeholder {
+    color:white;
+    font-family: Arial;
+}
+.form h6 a {
+    color:white;
+    font-size:12px;
+    text-decoration:none;
+    float:right;
+    font-family: Arial;
+}
+.form h6 a:hover{
+    color:orangered;
+    cursor:pointer;
+}
+.btn {
+    background:black;
+    width:220px;
+    height:35px;
+    border:none;
+    margin-top:15px;
+    font-size:16px;
+    margin-left:20px;
+    cursor:pointer;
+    color:white;
+    border-radius: 10px;
+}
+.btn a {
+    text-decoration:none;
+    color:white;
+}
+.btn a:hover{
+    color:orangered;
+}
+.form h3 {
+    color:white;
+    font-size:14px;
+    width:220px;
+    height:25px;
+    text-align: center;
+    margin-top: 10px;
+}
+.icon a{
+    text-decoration: none;
+    color:white;
+}
+.icon ion-icon{
+    color:white;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:28px;
+    margin-left:10px;
+}
+.icon ion-icon:hover{
+    color:orangered;
+}
+.form p a{
+    color:white;
+    text-decoration: none;
+}
+.form p {
+    margin-top: 20px;
+    margin-left:40%;
+}
+.form p a:hover{
+    color:orangered;
+}
